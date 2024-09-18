@@ -32,8 +32,11 @@ This mode doesn't support HMR, you need to run `pnpm build` and reload plugin in
 1. push to `main` branch
 2. github ci will auto create a new release
 
-> [!TIP]
-> Commit message needs to follow the [semantic-release](https://github.com/semantic-release/semantic-release) specification
+## Commits
+
+Commit message needs to follow the [semantic-release](https://github.com/semantic-release/semantic-release) specification.
+
+Use [`czg`](https://cz-git.qbb.sh/cli/) to generate commit messages.
 
 ## Publish to [logseq marketplace](https://github.com/logseq/marketplace)
 
